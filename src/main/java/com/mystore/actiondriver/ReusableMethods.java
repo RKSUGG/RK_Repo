@@ -16,6 +16,10 @@ public class ReusableMethods {
 		element.click();
 		
 	}
+	public void DropDown(WebElement element, String value){
+	Select s=new Select(element)
+	s.selectByIndex(value);
+	}
 	
 	
 	
